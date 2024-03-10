@@ -1,6 +1,5 @@
 console.log('Welcome to TIC TAC TOE')
 
-let music = new Audio('music.mp3')
 let ting = new Audio('ting.mp3')
 let gameOver = new Audio('gameover.mp3')
 
@@ -38,7 +37,6 @@ const checkWin = () => {
 }
 
 // Game Logic
-// music.play()
 let boxes = document.getElementsByClassName('box')
 Array.from(boxes).forEach((element) => {
     let boxText = element.querySelector('.boxtext')
